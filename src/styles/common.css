@@ -1,0 +1,49 @@
+:root {
+    --textColor: rgb(255,255,255);
+    --blue: rgb(32,40,70);
+    --gray-light: #90A4AE;
+    --gray-dark: #657572;
+    }
+
+body{
+    font-family: PT Sans, sans-serif;
+    color: var(--textColor);
+    background-color: var(--gray-dark) !important;
+    margin: 0; /* Видаляємо білі поля */
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+position: relative;
+   
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.gray-block {
+    background-color: rgb(220, 220, 220);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    width: 1920px; /* Встановлено на 100%, щоб відповідати ширині контейнера */
+    height: 2120px;
+    margin: 0 auto 20px auto;
+   
+   } 
+   .gray-block > * {
+    margin: 0;
+    padding: 0;
+}
+   .gray-block::after {
+    content: ""; /* Додаємо, щоб псевдоелемент працював */
+    display: block;
+    clear: both;
+  }

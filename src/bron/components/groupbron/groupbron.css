@@ -1,0 +1,161 @@
+
+ .groupbron {
+    width: 1489px;
+    height: 300px;
+    position: relative;
+    background-color: #bdbdc6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    top: 56px;
+    margin-bottom: 36px;
+    margin-left: 211px;
+    
+    }
+    .group__content {
+      flex-direction: row;
+      width: 100%;
+      height: auto;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      gap: 0;
+      justify-content: space-between;
+    }
+.group__text, .group__img {
+    margin: 0; /* Видалення зайвих зовнішніх відступів */
+}
+
+
+.group__img {
+    position: absolute;
+    top: 43px;
+    margin-left: 100px;
+    display: flex;
+    width: 485px;
+    height: 244px;
+    background-position: left;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    gap: 5px;
+    max-width: none;
+    max-height: none;
+    object-fit: unset;
+    transform: none;
+    }
+    .group__img img {
+        width: 100%; /* Зображення займає весь блок */
+        height: auto;
+        object-fit: cover; /* Обрізка зображення під розмір блока */
+    }
+    .text span {
+      color: #353c57;
+  text-align: left;
+  font-family: "PtSans-BoldItalic", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: italic;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  top: 40px;
+  left: 690px;
+  position: absolute;
+  white-space: nowrap;
+  
+    }
+    .group__text {
+        margin-left: 690px;
+        margin-right: 87px;
+        margin-top: 46px;
+        color: #202846;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        background-color: #d7d7dd;
+        font-size: 22px;
+        font-family: "PtSans-Regular", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        height: 184px;
+        width: 712px;
+        z-index: 10;
+    }
+    .line__img {
+      width: 712px;
+      height: 0;
+      color: #FFF;
+      justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin-top: -166px;
+    margin-left: 690px;
+  
+
+    }
+    .brands__btn-wrapper {
+      
+      z-index: 1000;
+  background: transparent;
+  display: flex ! important;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: 200;
+  height: 60; 
+  
+    }
+    .brands__btn {
+  background-color: #202846 !important;
+  border-radius: 35px;
+  margin-top: 230px;
+  margin-left: 1340px;
+  transition: background-color 0.3s;
+  color: #ffffff !important;
+  text-align: center;
+  font-family: "PtSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  position: relative;
+  
+  
+    }
+   
+    .comp__img {
+      width: 46.88px;
+  height: 45.31px;
+  position: absolute;
+  overflow: visible;
+  margin-left: 1420px;
+  margin-top: -210px;
+  
+}
+     
+    @media (max-width: 768px) {
+        .group__content {
+          flex-direction: row; 
+          gap: 5px; /* Зменшення відстані між блоками */
+        }
+        
+        .group__text,
+         .group__img {
+          width: 100%; /* Ширина блоку на 100% */
+          height: auto; /* Висота автоматична */
+        }
+       
+        .group__img img {
+          height: auto; /* Збереження пропорцій зображення */
+        }
+      }
+      

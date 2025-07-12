@@ -1,0 +1,323 @@
+.brandshouse {
+    width: 1490px; 
+    height: 304px; 
+    position: relative;
+    color: #90A4AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+    left: 200px;
+    z-index: 1000;
+    box-sizing: border-box;
+    
+}
+.brands__content {
+    display: flex;
+    position: relative;
+    width: 1490px; 
+    height: 304px;
+    flex-direction: column;
+    background-color: #90A4AE;
+    justify-content: space-between;
+     
+
+}
+.brands__text span {
+    font-size: 29px; 
+    font-family: 'PT Sans-Regular',sans-serif; 
+    font-weight: 400;
+    color: #000000;
+    background-color: #90A4AE;
+    width: 763px;
+    height: 63px;
+    position: absolute;
+    text-align: left;
+    display: flex;
+    top: 10px;
+    left: 20px;
+    z-index: 10;
+    align-items: flex-start;
+    white-space: nowrap; 
+}
+.text {
+   width: 145px;
+   height: 38px;
+   color: #000000;
+    
+   font-size: 29px;
+   font-family: 'PT Sans-Regular', sans-serif;
+   font-weight: 400;
+   left: 45px;
+   top: 80px;
+   display: flex;
+   position: absolute;
+   text-align: left;
+   z-index: 10;
+    align-items: flex-start;
+    white-space: nowrap; 
+}
+.block {
+    width: 350px;
+    height: 62px;
+    left: 44px;
+    top: -90px;
+    display: block;
+    position: relative;
+    align-items: flex-start;
+    text-align: left;
+    background-color: #FFFFFF !important;
+    
+    z-index: 10;
+    align-items: flex-start;
+    overflow: visible;  
+}
+.block__img1 {
+    
+   width: 43px;
+   height: 45px;
+   display: flex;
+   align-items: flex-start;
+   position: absolute !important;
+   top: 10px !important;
+   left: 10px;
+   z-index: 20;
+   
+    
+}
+.block__text {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    top: 20px;
+    left: 60px;
+    font-family: 'PT Sans-Regular', sans-serif;
+    color: #999999; 
+    font-size: 20px; 
+     font-weight: 400;
+     white-space: nowrap; 
+
+}
+.block__img2 {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 290px;
+}
+.text1 {
+    width: 145px;
+    height: 38px;
+    color: #000000;
+     
+    font-size: 29px;
+    font-family: 'PT Sans-Regular', sans-serif;
+    font-weight: 400;
+    left: 485px;
+    top: 79px;
+    display: flex;
+    position: absolute;
+    text-align: left;
+    z-index: 10;
+     align-items: flex-start;
+     white-space: nowrap; 
+ }
+.block1 {
+    width: 350px;
+    height: 62px;
+    left: 480px;
+    top: -150px;
+    display: block;
+    position: relative;
+    align-items: flex-start;
+    text-align: left;
+    background-color: #FFFFFF !important;
+    z-index: 10;
+    align-items: flex-start;
+    overflow: visible;  
+}
+.block__img1 {
+    
+   width: 43px;
+   height: 45px;
+   display: flex;
+   align-items: flex-start;
+   position: absolute !important;
+   top: 10px !important;
+   left: 10px;
+   z-index: 20;
+   
+    
+}
+.block__text {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    top: 20px;
+    left: 60px;
+    font-family: 'PT Sans-Regular', sans-serif;
+    color: #999999; 
+    font-size: 20px; 
+     font-weight: 400;
+     white-space: nowrap; 
+
+}
+.block__img2 {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 290px;
+}
+.brands__btn span::before {
+    display: flex;
+    position: relative;
+    width: 351px; 
+    height: 112px; 
+    top: 10px;
+    z-index: 1000;
+    align-items: center;
+  justify-content: center;
+}
+.brands__btn span {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 80px;
+  left: 1000px;
+    position: absolute;
+    color: #FFFFFF;
+    background-color: #2B365C;
+    width: 351px;
+    height: 112px; 
+    text-align: center; 
+    font-size: 29px; 
+    font-family: 'PT Sans-Regular'; 
+    font-weight: 400;
+}
+.image-container {
+    position: relative;
+    display: inline-block; /* Щоб розмір контейнера відповідав зображенню */
+}
+   .default__Img1 { 
+    width: 61px;
+    height: 62px;
+    object-fit: contain;
+    color: black; /* Колір цифри */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -10px;
+    left: -3px;
+    gap: 5px; 
+    }
+    .default__Img2 {
+        width: 61px;
+    height: 62px;
+    object-fit: contain;
+    color: black; /* Колір цифри */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -10px;
+    left: -3px;
+    gap: 5px; 
+    }
+    .default__Img3 {
+        width: 61px;
+        height: 62px;
+        object-fit: contain;
+        color: black; /* Колір цифри */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        position: relative;
+        top: -10px;
+        left: 35px;
+        gap: 5px; 
+    }
+.overlay-text {
+    position: absolute;
+    top: 50%; /* Вирівнює по вертикалі */
+    left: 130px; /* Вирівнює по горизонталі */
+    transform: translate(-50%, -50%); /* Центрує текст */
+    padding: 5px 10px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    z-index: 2;
+    
+   }
+   .трекутники__Img {
+    width: 12px;
+    height: 36px;
+    top: 50%; /* Вирівнює по вертикалі */
+    left: 130px;
+    background-image: url("./../../img/icons/трекутники.svg");
+    transform: translate(-50%, -50%) translateX(20px); 
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    display: flex; 
+    
+   }
+.brands__page1 {
+    display: flex;
+    position: relative;
+    color: #000000;
+     font-size: 29px; 
+     font-family: 'PT Sans-Regular'; 
+     font-weight: 400;
+     width: 140px;
+     height: 38px;
+     top: 60px;
+     margin-left: 50px;
+     margin-right: 60px;
+     gap: 10px;
+     padding-left: 10px 10px;
+}
+
+.brands__page2 {
+    top: 12px;
+    display: flex;
+    position: relative;
+    color: #000000;
+     font-size: 29px; 
+     font-family: 'PT Sans-Regular'; 
+     font-weight: 400;
+    width: 140px;
+    height: 38px;
+    gap: 10px;
+    left: 240px;
+}
+
+.brands__page3 {
+    display: flex;
+    position: relative;
+    color: #000000;
+     font-size: 29px; 
+     font-family: 'PT Sans-Regular'; 
+     font-weight: 400;
+    width: 140px;
+    height: 38px;
+    top: -40px;
+    margin-left: 450px;
+    
+    gap: 10px;
+}

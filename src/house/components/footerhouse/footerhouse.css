@@ -1,0 +1,55 @@
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+ span .code-symbol1 {
+      font-size: 24px;
+      color: white;
+      font-family: 'PT Sans', sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      left: 1890px;
+      top: -5px;
+      position: absolute; 
+    }
+    .code-symbol1 {
+      display: inline-block; /* Щоб працював transform */
+      transform: translateY(-60px); /* Піднімає span */
+      margin-left: 240px;
+    }
+h1 {
+position: relative;
+margin-top: 20px;
+bottom: 10px;
+}
+.header-top h1 {
+  margin: 0;
+  left: 195px;
+  top: -80px;
+  left: 10px;
+}
+.footerhouse {
+  width: 100%;
+  max-width: 1920px;
+  height: 47px;
+  background-color: rgb(32, 40, 70);
+  position: relative;
+  display: flex;
+  z-index: 2;
+  margin-top: -20px;
+  flex-grow: 1;
+  margin-bottom: 130px;
+
+}
+.footer__text {
+  display: flex;
+  position: absolute;
+  color: #EEECF1; 
+  font-size: 36px;
+   font-family: PT Sans, sans-serif;
+   font-weight: 400;
+   width: 709px;
+   margin-left: 60px;
+   margin-right: 1151px; 
+}

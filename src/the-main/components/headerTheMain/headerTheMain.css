@@ -1,0 +1,218 @@
+headerTheMain + footerTheMain {
+  margin-top: 70px;
+}
+.header__top::before {
+  content: '...'; /* Три крапки */
+  display: block;
+  font-size: 30px; /* Розмір шрифта */
+  color: white; /* Колір крапок */
+  text-align: center; /* Вирівнювання по центру */
+  margin-bottom: 10px; /* Відступ знизу для розміщення крапок */
+  position: absolute;
+  top: -40px; /* Розташування крапок над header__top */
+  left: 0;
+  right: 0;
+}
+.header__top {
+  width: 57px;
+   height: 128px;
+    position: relative; 
+    background-color: #202846;
+    top: -30px;
+    left: 1850px;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.header__top ul {
+  display: flex !important;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  top: 0;
+  position: absolute;
+  flex-direction: column;
+  
+}
+.header__top ul li {
+  display: block; /* Кожен пункт списку займає весь рядок */
+}
+.header__top ul li a {
+  display: block;
+  padding: 5px 10px; /* Додає трохи простору всередині */
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  
+  
+}
+.header__top ul li:first-child a {
+  background-color: rgba(196, 196, 196, 0.10);
+}
+.header__top ul li:not(:first-child) a {
+  background-color: #202846;
+}
+.header__top ul li {
+  margin: 0; /* Убезпечує від зайвих відступів */
+  padding: 0;
+}
+.header__top a {
+width: 57px;
+height: 43.50px;
+left: 0;
+top: 0px;
+position: absolute;
+gap: 10px;
+background-color: rgba(196, 196, 196, 0.10);
+} 
+
+section {
+  padding-top: 30px; /* Відступ зверху для h1 */
+}
+
+ 
+.item1, .item2, .item3 {
+  word-spacing: 20px; /* Відстань між словами */
+}
+.header__top h1 {
+  margin-bottom: 40px;
+  top: 150px;
+  margin: 0;
+  left: -1830px;
+}
+h1 {
+  margin-top: 20px;
+  bottom: 10px;
+  position: relative;
+} 
+
+.headerTheMain { 
+  position: relative;
+  overflow: visible;
+  padding: 30px 0px;
+  width: 1920px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+  background-color: rgb(32, 40, 70);
+  z-index: 2;
+}
+
+.header__row {
+  width: 1603.55px;
+  margin: 0 auto;
+  padding: 10px 138px 20px;
+  column-gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  width: 178.45px;
+  height: 70px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+  margin-top: -35px;
+  margin-left: -200px;
+  margin-right: 10px;
+  
+}
+
+.header__nav {
+  width: 1115px;
+  height: 56.28px;
+  position: absolute;
+  top: 10px;
+  left: 500px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  align-items: center;
+  
+}
+
+.header__nav ul {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__nav a {
+  color: var(--textColor);
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 25px 1px 3px 40px;
+  border-left: 2px solid white;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  display: flex;
+  width: 180px;
+  height: 54.31px;
+  margin-top: 0px;
+  
+  
+}
+
+
+.globoImg {
+  display: flex;
+  width: 116px;
+  height: 75px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  padding: 10px 10px 25px 35px;
+  margin-left: -700px;
+  margin-right: -200px;
+  margin-top: -45px;
+  margin-bottom: -1px;
+  }
+  
+.globoImg::before  {
+  content: "";
+  padding: 12px 30px 1px;
+  transform: rotate(-90deg);
+  padding-top: 0px;
+  padding-left: -15px;
+  margin-left: -250px;  
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+  }
+  
+ 
+.globoImg span {
+  color: var(--textColor);
+  padding-left: 0;
+  width: 60px;
+  height: 60px;
+  top: 10px;
+  align-items: flex-end;
+  margin-left: 5px;
+  margin-right: 50px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0;
+  position: relative;
+}
+

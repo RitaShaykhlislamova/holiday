@@ -1,0 +1,212 @@
+
+ .grouphouse {
+    width: 1490px;
+    height: 665px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    top: 400px;
+    margin-bottom: 36px;
+    margin-left: 295px;
+    margin-right: 215px;
+    z-index: 10;
+    }
+    .group__content {
+      width: 1490px;
+      height: 665px;
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      gap: 36px;
+      justify-content: space-between;
+      overflow: visible;
+      flex-direction: column;
+    }
+.group__text, .group__img {
+    margin: 0; /* Видалення зайвих зовнішніх відступів */
+}
+.group__img1 {
+    position: absolute;
+    top: -300px;
+    margin-left: -90px;
+    display: flex;
+    width: 611px !important;
+    height: 314px !important;
+    background-position: left;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    gap: 5px;
+    max-width: none;
+    max-height: none;
+    object-fit: unset;
+    transform: none;
+    }
+  .group__img2 {
+    position: absolute;
+    top: 35px;
+    margin-left: -90px;
+    display: flex;
+    width: 611px;
+    height: 314px;
+    background-position: left;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    gap: 5px;
+  }
+  .group__img3 {
+    width: 441px;
+    height: 279px;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    gap: 5px;
+    position: absolute;
+    display: flex;
+    top: 85px;
+    left: 530px;
+     }
+     .group__img4 {
+      justify-content: center;
+    align-items: center;
+    z-index: 5;
+    gap: 5px;
+    position: absolute;
+    display: flex;
+    width: 422px;
+    height: 279px;
+    top: 85px;
+    left: 980px;
+     }
+  
+    .group__img img {
+        width: 100%; /* Зображення займає весь блок */
+        height: auto;
+        object-fit: cover; /* Обрізка зображення під розмір блока */
+    }
+    .group__text::before {
+      color: #353c57;
+  text-align: left;
+  font-family: "PtSans-BoldItalic", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: italic;
+  display: block;
+  width: 687px;
+  height: 378px;
+  left: 92px;
+  right: 92px;
+  position: absolute;
+  }
+    .group__text {
+      padding-top: 60px;
+        margin-left: 530px;
+        margin-right: 87px;
+        top: -590px;
+        color: #202846;
+        display: flex;
+        position: relative;
+        align-items: left;
+        justify-content: center;
+        background-color: #C7C7C7;
+        font-size: 22px;
+        font-family: "PtSans-Regular", sans-serif;
+        font-weight: 400;
+        text-align: left;
+        height: 378px;
+        width: 871px;
+        z-index: 10;
+    }
+    .group__btn-wrapper {
+      z-index: 1000;
+  background: transparent;
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -430px;
+  margin-right: 1602px;
+  margin-left: -300px;
+  width: 100%; 
+  height: auto; 
+  position: relative;
+   
+  }
+    .group__btn {
+  background-color: #202846 !important;
+  border-radius: 35px;
+  top: 39.65px;
+  left: 138px;
+  padding-left: 30px;
+  transition: background-color 0.3s;
+  color: #ffffff !important;
+  text-align: center;
+  font-family: "PtSans-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 61.52px;
+  position: relative;
+  }
+  .group__btn:hover {
+    background-color: #404a6a;
+  }
+  
+  .arrow__img img {
+    margin-top: 15px;
+    margin-left: -90px;
+    width: 24px;
+    height: auto;
+    transform: rotate(-180deg);
+  }
+   
+    .comp__img {
+      width: 46.88px;
+  height: 45.31px;
+  position: absolute;
+  overflow: visible;
+  margin-left: 1420px;
+  margin-top: -210px;
+  color: yellow;
+}
+     
+    @media (max-width: 768px) {
+        .group__content {
+          flex-direction: row; 
+          gap: 5px; /* Зменшення відстані між блоками */
+        }
+        
+        .group__text,
+         .group__img {
+          width: 100%; /* Ширина блоку на 100% */
+          height: auto; /* Висота автоматична */
+        }
+       
+        .group__img img {
+          height: auto; /* Збереження пропорцій зображення */
+        }
+      }
+      .text h1 {
+        content: "";
+        max-width: 333px;
+        height: 62px;
+        margin-left: 694px;
+        margin-right: 694px;
+        color: #202846; 
+        font-size: 48px; 
+        font-family: 'PT Sans-Bold'; 
+        font-weight: 700;
+        margin-top: 530px;
+        display: flex;
+        position: relative;
+        align-items: center; 
+        text-align: center;
+        justify-content: center;
+        white-space: nowrap;
+     }
+      

@@ -1,0 +1,36 @@
+
+.photohouse {
+    position: relative;
+    align-self: flex-start;
+     top: 0 !important;
+     max-width: 1920px;
+    height: 140px;
+    background-color: #C6C6DC;
+    text-align: left;
+  font-family: "PtSans-Italic", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #202846;
+
+    }
+    .photohouse span {
+      display: block;
+      width: 50%;
+      height: auto;
+      margin-left: 120px;
+      margin-top: -40px;
+    }
+    
+    @media (max-width: 1920px) {
+        .photohouse {
+          width: 100%; /* Робить ширину адаптивною */
+        }
+      }
+    
+    
+
+    

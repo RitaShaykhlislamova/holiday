@@ -1,0 +1,105 @@
+.formTheMain {
+    width: 518px;
+    height: 481px;
+    box-sizing: border-box;
+    position: relative;
+    background: #F2EEEE;
+    border: 3px rgba(170, 170, 170, 0.20) solid;
+    top: 830px;
+    left: 10px;
+    justify-content: center;
+    align-items: center;    
+    bottom: 50px; 
+    display: flex;
+  }
+  
+  .form-title {
+    width: 332px;
+    height: 39px;
+    position: absolute;
+    left: 93px;
+    top: 21px;
+    text-align: center;
+    color: #414141;
+    font-size: 36px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  .form-label {
+    position: absolute;
+    text-align: center;
+    color: #323236;
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  .name-label {
+    left: 55px;
+    top: 91px;
+  }
+  
+  .phone-label {
+    left: 55px;
+    top: 224px;
+  }
+  
+  .form-input {
+    width: 408px;
+    padding: 18px 28px;
+    position: absolute;
+    background: white;
+    border: 2px #90A4AE solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 56px;
+    box-sizing: border-box;
+  }
+  
+  .name-input {
+    left: 55px;
+    top: 146px;
+  }
+  
+  .phone-input {
+    left: 55px;
+    top: 279px;
+  }
+  
+  .placeholder {
+    color: #90A4AE;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  .form-footer {
+    width: 518px;
+    height: 104px;
+    position: absolute;
+    left: 0;
+    top: 377px;
+    background: #444765;
+  }
+
+  .submit-button {
+    display: flex;
+    position: absolute;
+    left: 116px;
+    top: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 286px;
+    height: 47px;
+    color: white;
+    font-size: 36px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    z-index: 5px;
+    background: none; 
+  border: none; 
+  }
+  
