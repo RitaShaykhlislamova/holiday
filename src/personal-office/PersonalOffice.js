@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import BrandsPersonalOffice from "./components/brandsPersonalOffice/BrandsPersonalOffice";
 import HeaderPersonalOffice from "./components/headerPersonalOffice/HeaderPersonalOffice";
-import GrayBlock from "./components/gray-block/Gray-block";
+import GrayBlock from "./components/gray-block2/Gray-block2";
 import PhotoPersonalOffice from "./components/photoPersonalOffice/PhotoPersonalOffice";
 import FooterPersonalOffice from "./components/footerPersonalOffice/FooterPersonalOffice";
 

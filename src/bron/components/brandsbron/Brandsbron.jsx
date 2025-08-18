@@ -6,9 +6,9 @@ const Brandsbron = () => {
     return (
              
             <section className="brandsbron">
-                <div className="brends__text">
+                <div className="brandsbron__text">
                 Оберіть місцерозташування
-                <div className="brands__img">
+                <div className="brandsbron__img">
                 <img src={brandsImg} alt='Brands'  />  
                     </div>
                     </div>

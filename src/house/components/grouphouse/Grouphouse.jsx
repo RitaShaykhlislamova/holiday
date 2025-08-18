@@ -10,9 +10,9 @@ const Grouphouse = () => {
     return (
         <>
             <div className="grouphouse">
-                <div className="group__content">
-                    <div className='group__btn-wrapper'>
-                        <a href='#!' className='group__btn'>
+                <div className="grouphouse__content">
+                    <div className='grouphouse__btn-wrapper'>
+                        <a href='#!' className='grouphouse__btn'>
                             Назад
                             <span className='arrow__img'>
                                 <img src={arrowImg} alt='ArrowImg' />

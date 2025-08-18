@@ -27,8 +27,8 @@
 .brands__desc {
   display: flex;
   position: absolute;
-  width: 1300px;
-  height: 167px !important;
+  width: 1164px;
+  height: 175.93px !important;
   bottom: 0; 
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.8); /* Прозорий фон */
@@ -41,7 +41,7 @@
   font-size: 24px;
   line-height: 31px;
   font-weight: 400;
-  
+  top: 563px;
 }
 .brands__desc span  {
   display: block;
@@ -50,8 +50,8 @@
   z-index: 15;
   width: 1112px;
   height: 167px;
-  margin-top: -110px;
-  margin-left: -350px;
+  margin-top: 30px;
+  margin-left: -5px;
   white-space: nowrap;
   }
   @media (max-width: 1200px) {
@@ -89,13 +89,15 @@
   width: 51.04px !important;
   height: auto;
 }
-.brands__btn-wrapper {
+.brandsTheMain__btn-wrapper {
   display: flex;
-  position: absolute;
+  position: relative;
   bottom: 22%; /* Розташування кнопки ближче до низу */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
+  width: 245px;
+    height: 71.64px;
 }
 
 .brands__btn {
@@ -111,21 +113,26 @@
   text-decoration: none;
   align-items: center;
   justify-content: center;
-  left: -210px;
-  top: 40px;
+  margin-left: 300px;
+  margin-top: -210px;
   padding-right: 70px;
+  width: 245px;
+  height: 71.64px;
 }
 
 .brands__btn:hover {
   background-color: #404a6a;
 }
 
-.arrow__img1 img {
-  position: fixed;
-  top: 60px;
-  left: 100px;
+.arrowbrands__img img {
+  z-index: 2000;
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 10px;
   width: 24px;
-  height: 13.15px;
-  z-index: 9999;
-  background-color: white;
+  height: auto;
+  background-color: transparent;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
   }

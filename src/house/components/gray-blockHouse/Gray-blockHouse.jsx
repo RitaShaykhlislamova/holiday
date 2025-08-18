@@ -1,10 +1,10 @@
 import React from 'react';
-import './gray-block.css';
+import './gray-blockHouse.css';
 
 
 const GrayBlock = ({ children }) => {
     return (
-        <div className="gray-block">{children}</div>
+        <div className="gray-blockHouse">{children}</div>
     );
 };
 

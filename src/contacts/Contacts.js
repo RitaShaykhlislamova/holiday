@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import Brandscontacts from "./components/brandscontacts/Brandscontacts";
 import Headercontacts from "./components/headercontacts/Headercontacts";
-import GrayBlock from "./components/gray-block/Gray-block";
+import GrayBlock from "./components/gray-block2/Gray-block2";
 import Photocontacts from "./components/photocontacts/Photocontacts";
 import Footercontacts from "./components/footercontacts/Footercontacts";
 

@@ -8,12 +8,12 @@
     align-items: center;
     justify-content: flex-start;
     box-sizing: border-box;
-    top: 56px;
+    top: 100px;
     margin-bottom: 36px;
-    margin-left: 211px;
+    left: -40px;
     
     }
-    .group__content {
+    .group__contentbron {
       flex-direction: row;
       width: 100%;
       height: auto;
@@ -22,16 +22,17 @@
       align-items: center;
       gap: 0;
       justify-content: space-between;
+      top: 290px;
     }
 .group__text, .group__img {
     margin: 0; /* Видалення зайвих зовнішніх відступів */
 }
 
 
-.group__img {
+.groupbron__img1 {
     position: absolute;
-    top: 43px;
-    margin-left: 100px;
+    margin-top: -330px;
+    left: 100px;
     display: flex;
     width: 485px;
     height: 244px;
@@ -45,13 +46,13 @@
     object-fit: unset;
     transform: none;
     }
-    .group__img img {
+    .groupbron__img img {
         width: 100%; /* Зображення займає весь блок */
         height: auto;
         object-fit: cover; /* Обрізка зображення під розмір блока */
     }
-    .text span {
-      color: #353c57;
+    .textbron {
+  color: #353c57;
   text-align: left;
   font-family: "PtSans-BoldItalic", sans-serif;
   font-size: 36px;
@@ -62,18 +63,18 @@
   justify-content: center;
   width: 100%;
   height: auto;
-  top: 40px;
-  left: 690px;
+  top: -270px;
+  left: 680px;
   position: absolute;
   white-space: nowrap;
-  
-    }
-    .group__text {
-        margin-left: 690px;
-        margin-right: 87px;
-        margin-top: 46px;
-        color: #202846;
-        display: flex;
+  }
+    .groupbron__text1 {
+            margin-left: 680px;
+            margin-right: 87px;
+            top: -210px;
+            padding-top: 10px;
+            color: #202846;
+            display: flex;
         position: absolute;
         align-items: center;
         justify-content: center;
@@ -86,7 +87,7 @@
         width: 712px;
         z-index: 10;
     }
-    .line__img {
+    .linebron__img {
       width: 712px;
       height: 0;
       color: #FFF;
@@ -94,14 +95,11 @@
     align-items: center;
     display: flex;
     position: absolute;
-    margin-top: -166px;
-    margin-left: 690px;
-  
-
+    top: -220px;
+    left: 680px;
     }
     .brands__btn-wrapper {
-      
-      z-index: 1000;
+  z-index: 1000;
   background: transparent;
   display: flex ! important;
   align-items: center;
@@ -111,11 +109,11 @@
   height: 60; 
   
     }
-    .brands__btn {
+    .brandsbron__btn1 {
   background-color: #202846 !important;
   border-radius: 35px;
-  margin-top: 230px;
-  margin-left: 1340px;
+  margin-top: -75px;
+  left: 700px;
   transition: background-color 0.3s;
   color: #ffffff !important;
   text-align: center;
@@ -128,20 +126,267 @@
   width: 200px;
   height: 60px;
   position: relative;
-  
-  
-    }
-   
-    .comp__img {
+  }
+   .comp__img {
       width: 46.88px;
   height: 45.31px;
   position: absolute;
   overflow: visible;
   margin-left: 1420px;
-  margin-top: -210px;
-  
-}
-     
+  top: -60px;
+  }
+ .groupbron1 {
+     width: 1489px;
+     height: 300px;
+     position: relative;
+     background-color: #bdbdc6;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     box-sizing: border-box;
+     margin-top: 100px;
+     margin-bottom: 36px;
+     left: -40px;
+     }
+     .textbron1 {
+       color: #353c57;
+       text-align: left;
+       font-family: "PtSans-BoldItalic", sans-serif;
+       font-size: 36px;
+       font-weight: 700;
+       font-style: italic;
+       display: block;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+       height: auto;
+       top: -270px;
+       left: 680px;
+       position: absolute;
+       white-space: nowrap;
+       }
+     .groupbron__img2 {
+         position: absolute;
+         margin-top: -380px;
+         left: 100px;
+         display: flex;
+         width: 485px;
+         height: 244px;
+         background-position: left;
+         justify-content: center;
+         align-items: center;
+         z-index: 5;
+         gap: 5px;
+         max-width: none;
+         max-height: none;
+         object-fit: unset;
+         transform: none;
+         }
+         .groupbron__text2 {
+         margin-left: 680px;
+         margin-right: 87px;
+         margin-top: -324px;
+         padding-top: 10px;
+         color: #202846;
+         display: flex;
+         position: absolute;
+         align-items: center;
+         justify-content: center;
+         background-color: #d7d7dd;
+         font-size: 22px;
+         font-family: "PtSans-Regular", sans-serif;
+         font-weight: 400;
+         text-align: center;
+         height: 184px;
+         width: 712px;
+         z-index: 10;
+             }
+             .brandsbron__btn2 {
+               background-color: #202846;
+               border-radius: 35px;
+               top: -70px;
+               left: 700px;
+               transition: background-color 0.3s;
+               color: #ffffff;
+               text-align: center;
+               font-family: "PtSans-Regular", sans-serif;
+               font-size: 24px;
+               font-weight: 400;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               width: 200px;
+               height: 60px;
+               position: relative;
+               }
+         .groupbron2 {
+              width: 1489px;
+              height: 300px;
+              position: relative;
+              background-color: #bdbdc6;
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              box-sizing: border-box;
+              margin-top: -5px;
+              margin-bottom: 36px;
+              left: -40px;
+              }
+              .textbron2 {
+                     color: #353c57;
+                     text-align: left;
+                     font-family: "PtSans-BoldItalic", sans-serif;
+                     font-size: 36px;
+                     font-weight: 700;
+                     font-style: italic;
+                     display: block;
+                     align-items: center;
+                     justify-content: center;
+                     width: 100%;
+                     height: auto;
+                     top: -270px;
+                     left: 680px;
+                     position: absolute;
+                     white-space: nowrap;
+                     }
+              .groupbron__img3 {
+                       position: absolute;
+                       margin-top: -325px;
+                       left: 100px;
+                       display: flex;
+                       width: 485px;
+                       height: 244px;
+                       background-position: left;
+                       justify-content: center;
+                       align-items: center;
+                       z-index: 5;
+                       gap: 5px;
+                       max-width: none;
+                       max-height: none;
+                       object-fit: unset;
+                       transform: none;
+                       }
+                       .groupbron__text3 {
+                                margin-left: 680px;
+                                margin-right: 87px;
+                                margin-top: -280px;
+                                padding-top: 10px;
+                                color: #202846;
+                                display: flex;
+                                position: absolute;
+                                align-items: center;
+                                justify-content: center;
+                                background-color: #d7d7dd;
+                                font-size: 22px;
+                                font-family: "PtSans-Regular", sans-serif;
+                                font-weight: 400;
+                                text-align: center;
+                                height: 184px;
+                                width: 712px;
+                                z-index: 10;
+                                    }
+                                    .brandsbron__btn3 {
+                                    background-color: #202846 !important;
+                                    border-radius: 35px;
+                                    margin-top: -135px;
+                                    left: 701px;
+                                    transition: background-color 0.3s;
+                                    color: #ffffff !important;
+                                    text-align: center;
+                                    font-family: "PtSans-Regular", sans-serif;
+                                    font-size: 24px;
+                                    font-weight: 400;
+                                    display: flex !important;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 200px;
+                                    height: 60px;
+                                    position: relative;
+                                    }
+                       .groupbron3 {
+                                     width: 1489px;
+                                     height: 300px;
+                                     position: relative;
+                                     background-color: #bdbdc6;
+                                     display: flex;
+                                     align-items: center;
+                                     justify-content: flex-start;
+                                     box-sizing: border-box;
+                                     margin-top: 5px;
+                                     margin-bottom: 36px;
+                                     left: -40px;
+                                     }
+                                      .textbron3 {
+                                      color: #353c57;
+                                      text-align: left;
+                                      font-family: "PtSans-BoldItalic", sans-serif;
+                                      font-size: 36px;
+                                      font-weight: 700;
+                                      font-style: italic;
+                                      display: block;
+                                      align-items: center;
+                                      justify-content: center;
+                                      width: 100%;
+                                      height: auto;
+                                      top: -270px;
+                                      left: 680px;
+                                      position: absolute;
+                                      white-space: nowrap;
+                                      }
+                                     .groupbron__img4 {
+                                              position: absolute;
+                                              top: -260px;
+                                              left: 100px;
+                                              display: flex;
+                                              width: 485px;
+                                              height: 244px;
+                                              background-position: left;
+                                              justify-content: center;
+                                              align-items: center;
+                                              z-index: 5;
+                                              gap: 5px;
+                                              max-width: none;
+                                              max-height: none;
+                                              object-fit: unset;
+                                              transform: none;
+                                              }
+                                              .groupbron__text4 {
+                                              margin-left: 680px;
+                                              margin-right: 87px;
+                                              margin-top: -275px;
+                                              padding-top: 10px;
+                                              color: #202846;
+                                              display: flex;
+                                              position: absolute;
+                                              align-items: center;
+                                              justify-content: center;
+                                              background-color: #d7d7dd;
+                                              font-size: 22px;
+                                              font-family: "PtSans-Regular", sans-serif;
+                                              font-weight: 400;
+                                              text-align: center;
+                                              height: 184px;
+                                               width: 712px;
+                                               z-index: 10;
+                                               }
+                                               .brandsbron__btn4 {
+                                                              background-color: #202846 !important;
+                                                              border-radius: 35px;
+                                                              margin-top: -75px;
+                                                              left: 700px;
+                                                              transition: background-color 0.3s;
+                                                              color: #ffffff !important;
+                                                              text-align: center;
+                                                              font-family: "PtSans-Regular", sans-serif;
+                                                              font-size: 24px;
+                                                              font-weight: 400;
+                                                              display: flex !important;
+                                                              align-items: center;
+                                                              justify-content: center;
+                                                              width: 200px;
+                                                              height: 60px;
+                                                              position: relative;
+                                                              }
     @media (max-width: 768px) {
         .group__content {
           flex-direction: row; 

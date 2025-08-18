@@ -6,8 +6,8 @@
   justify-content: center;
   align-items: center;
    padding: 20px;
-   width: 1920px !important;
-   height: 681px !important;
+   width: 1920px;
+   height: 681px;
    margin-left: 211px;
 }
 
@@ -28,7 +28,7 @@
    font-size: 32px;
     font-family: 'PT Sans'; 
     font-weight: 400;
-    margin-top: -363px;
+    margin-top: -250px;
     margin-left: -800px;
   
 }
@@ -47,7 +47,7 @@
    font-size: 32px;
     font-family: 'PT Sans'; 
     font-weight: 400;
-    margin-top: -363px;
+    margin-top: -250px;
     margin-left: -320px;
   
 }
@@ -66,7 +66,7 @@
    font-size: 32px;
     font-family: 'PT Sans'; 
     font-weight: 400;
-    margin-top: -363px;
+    margin-top: -250px;
     margin-left: 140px;
   
 }
@@ -85,7 +85,7 @@
    font-size: 32px;
     font-family: 'PT Sans'; 
     font-weight: 400;
-    margin-top: -100px;
+    margin-top: -50px;
     margin-left: -800px;
     
   }
@@ -103,7 +103,7 @@
     height: 335px;
     border-radius: 47px; 
     border: 3px rgba(0, 0, 0, 0.05) solid;
-    margin-top: -100px;
+    margin-top: -50px;
     margin-left: -120px;
     
   }

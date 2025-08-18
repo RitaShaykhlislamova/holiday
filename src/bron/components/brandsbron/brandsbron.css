@@ -6,33 +6,35 @@
   justify-content: center;
   align-items: center;
    padding: 20px;
-   width: 1489px ! important;
-   height: 73px ! important;
-   margin-top: 56px;
-   margin-left: 216px;
+   width: 1489px !important;
+   height: 73px !important;
+   top: 60px;
+   left: -40px;
    background-color: #E8E8E8;
    color: rgba(0, 0, 0, 0.61);
    
 }
-.brands__text {
-  
+.brandsbron__text {
+  left: 789.5px;
   text-align: center;
   font-family: "PtSans-Regular", sans-serif;
   font-size: 28px;
   font-weight: 400;
-  position: relative;
   align-items: center;
   justify-content: center;
-  width: 342px;
-  height: 36px;
+  width: 343px;
+  top: 302.5px;
+  height: 37px;
+  white-space: nowrap;
+
 }
 
-  .brands__img {
+  .brandsbron__img {
   display: flex;
   position: absolute;
   width: 34px;
-  margin-left: 800px;
-  margin-top: -20px;
+  margin-left: 870px;
+  margin-top: -22px;
   height: 33px;
   overflow: hidden;
   flex-direction: column;
@@ -40,10 +42,9 @@
   justify-content: center;
 }
 
-.brands__img {
+.brandsbron__img {
   
-  width: 100% ! important;
-  height: 100% ! important;
+
   object-fit: cover;
   display: block;
 }

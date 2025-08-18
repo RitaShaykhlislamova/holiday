@@ -3,7 +3,7 @@
 
 import Brandshouse from './components/brandshouse/Brandshouse';
 import Headerhouse from './components/headerhouse/Headerhouse';
-import GrayBlock from './components/gray-block/Gray-block';
+import GrayBlock from './components/gray-blockHouse/Gray-blockHouse';
 import Photohouse from './components/photohouse/Photohouse';
 import Grouphouse from './components/grouphouse/Grouphouse';
 import Arrowhouse from './components/arrowhouse/Arrowhouse';

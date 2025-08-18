@@ -1,9 +1,10 @@
 
-.photo {
-    position: absolute;
+.photobron {
+    display: flex;
+    position: relative;
     align-self: flex-start;
-     top: 0 !important;
-     max-width: 1920px;
+     top: 2px;
+     width: 1920px;
     height: 140px;
     background-color: #C6C6DC;
     text-align: left;
@@ -11,23 +12,23 @@
   font-size: 48px;
   font-weight: 400;
   font-style: italic;
-  display: flex;
   align-items: center;
   justify-content: flex-start;
   color: #202846;
 
     }
-    .photo span {
-      display: block;
-      width: 50%;
-      height: auto;
-      margin-left: 120px;
-      margin-top: -40px;
+    .photobron span {
+         display: flex;
+             position: absolute;
+             width: 50%;
+             height: 100%;
+             margin-top: 60px;
+         margin-left: 180px;
+         border: 2px solid green;
     }
-    
     @media (max-width: 1920px) {
-        .photo {
-          width: 100%; /* Робить ширину адаптивною */
+        .photobron {
+          width: 100%;
         }
       }
     

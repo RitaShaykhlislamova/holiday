@@ -13,6 +13,9 @@
     width: 1490px;
     position: relative;
     max-width: 100%;
+    top: 10px;
+    margin-left: -215px;
+    margin-right: 215px;
     }
     .page__nav {
         background-color: #4C536B;
@@ -24,31 +27,27 @@
         position: relative;
         align-items: center;
     }
-    .line__img1, .line__img2 {
+    .linepage__img1, .linepage__img2 {
       position: absolute;
       display: flex;  
       z-index: 10;  
-      width: 278px;
-      height: 2px;
+      width: 279px;
+      height: 0px;
       background-color: #8F98B9;
-      margin-top: -65px;
-     
-    transform: translateX(-50%);
-    object-fit: contain;
-    background-repeat: no-repeat;
-    transform: rotate(90deg); 
-    transform-origin: top left;
-    background-size: cover;
-
-
-     
-    }
-    .line__img1 {
-        margin-left: -200px; 
+      margin-top: -75px;
+      transform: translateX(-50%);
+      object-fit: contain;
+      background-repeat: no-repeat;
+      transform: rotate(90deg);
+      transform-origin: top left;
+      background-size: cover;
+     }
+    .linepage__img1 {
+        margin-left: -250px;
        
       }
-      .line__img2 {
-        margin-left: 150px;
+      .linepage__img2 {
+        margin-left: 350px;
     }
       
     .page__nav ul {
@@ -69,10 +68,10 @@
         padding: 20px 50px 20px 10px;  
         width: 98px;
         height: 41px;
-        top: 18px;
+        margin-top: -12px;
         gap: 10px;
         margin-bottom: 40px;
-        margin-left: 90px;
+        margin-left: 40px;
         margin-right: 300px;
         color: white; 
         font-size: 32px;
@@ -89,10 +88,10 @@
         padding: 20px 50px 20px 10px;  
         width: 217px;
         height: 41px;
-        top: 18px;
+        margin-top: -16px;
         gap: 10px;
         margin-bottom: 40px;
-        margin-left: -120px;
+        margin-left: -230px;
         margin-right: 300px;
         color: white; 
         font-size: 32px;
@@ -111,7 +110,7 @@
         top: 18px;
         gap: 10px;
         margin-bottom: 40px;
-        margin-left: 190px;
+        margin-left: 380px;
         margin-right: 300px;
         color: white; 
         font-size: 32px;
@@ -140,8 +139,8 @@
       width: 41px; 
       height: 45px;
       position: absolute;
-      left: 100px;
-      top: 50px;
+      left: 60px;
+      top: 70px;
       color: black;
     }
     .page__img2 {
@@ -149,8 +148,8 @@
         width: 41px; 
         height: 45px;
         position: absolute;
-        left: 140px;
-        top: 50px;
+        left: 100px;
+        top: 70px;
         color: black;
       }
     .bed__img {
@@ -158,7 +157,7 @@
         width: 103px; 
         height: 40px;
         left: 780px;
-        top: 70px;
+        margin-top: 70px;
         
     }
     .text {
@@ -176,9 +175,10 @@
         font-weight: 400;
         width: 234px;
         height: 41px;
-        left: 330px;
-        top: -50px;   
-    }
+        margin-left: 240px;
+        margin-top: 30px;
+        white-space: nowrap;
+        }
     .text p  {
         position: absolute;
         display: flex;
@@ -189,9 +189,10 @@
         font-size: 32px;
         font-family: 'PT Sans-Italic'; 
         font-weight: 400;
-        margin-top: 10px;
-        left: 330px; 
-    }
+        margin-top: 110px;
+        margin-left: 240px;
+        white-space: nowrap;
+        }
     .page__btn {
         display: flex;
         position: absolute;

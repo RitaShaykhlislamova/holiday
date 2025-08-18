@@ -13,13 +13,13 @@ const Pagehouse = () => {
                         <ul>
                             <li className="nav-item-1"><a href='#!'>Вміщує</a></li>
                             <li>
-                                <div className='line__img1'>
+                                <div className='linepage__img1'>
                                     <img src={lineImg} alt="Line" />
                                 </div>
                             </li>
                             <li className="nav-item-2"><a href='#!'>Тип розміщення</a></li>
                             <li>
-                                <div className='line__img2'> 
+                                <div className='linepage__img2'>
                                     <img src={lineImg} alt="Line" />  
                                 </div>
                             </li>

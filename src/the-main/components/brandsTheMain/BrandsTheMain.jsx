@@ -26,11 +26,11 @@ const BrandsTheMain = () => {
                     <div className='lines__img'>
                         <img src={linesImg} alt='LinesImg' />
                     </div>
-                    <div className='brands__btn-wrapper'>
+                    <div className='brandsTheMain__btn-wrapper'>
                         <a href='#!' className='brands__btn'>
                             Переглянути
-                            <span className='arrow__img'>
-                                <img src={arrowImg} alt='ArrowImg' />
+                            <span className='arrowbrands__img'>
+                                <img src={arrowImg} alt='Arrow' />
                             </span>
                         </a>
                     </div>

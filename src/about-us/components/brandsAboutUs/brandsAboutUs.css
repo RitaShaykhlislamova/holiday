@@ -12,27 +12,27 @@
         width: 100%; /* Робить ширину адаптивною */
       }
     }
-  .brands__content {
+  .brandsAboutUs__content {
     display: flex;
     width: 1574px !important;
     height: 227px !important;
     column-gap: 96px;
     text-align: center;
-    margin-top: -40px;
+    margin-top: 30px;
     margin-left: 174px;
     position: relative;
     justify-content: space-between;
     flex-wrap: wrap;
     box-sizing: border-box;  
   }
-  .brands__img img  {
+  .brandsAboutUs__img  {
     width: 100% !important; 
     height: 100%;
     object-fit: cover;
      
   }    
   
-  .brands__title {
+  .brandsAboutUs__title {
   font-family: "PT Sans-Mixed";
 font-weight: 700;
 font-size: 48px;
@@ -48,7 +48,7 @@ color: white;
 
 
 }
-.brands__desc {
+.brandsAboutUs__desc {
   font-family: "PT Sans-Bold italic";
   font-size: 36px;
   padding-top: 146px;
@@ -68,13 +68,13 @@ color: white;
     padding-top: 0px;
     
   }
-.brands__layout {
+.brandsAboutUs__layout {
   display: flex;
   position: relative;
   width: 1574px;
    height: 380px;
    background-color: #CBCBCB;
-   top: 23px;
+   top: 30px;
    
    
    }

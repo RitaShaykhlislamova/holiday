@@ -15,25 +15,25 @@ function Headerbron() {
     <div className="top__content">
     <nav className="top-nav">
     <ul>
-    <li className="nav-item-1"><a href='#!'>Бакота</a></li>
+    <li className="bronnav-item-1"><a href='#!'>Бакота</a></li>
         <li>
         <div className='line__img1'>
         <img src={lineImg} alt="Line" />
         </div>
         </li>
-        <li className="nav-item-2"><a href='#!'>Карпати</a></li>
+        <li className="bronnav-item-2"><a href='#!'>Карпати</a></li>
         <li>
         <div className='line__img2'>
         <img src={lineImg} alt="Line" />
         </div>
         </li>
-        <li className="nav-item-3"><a href='#!'>Київ</a></li>
+        <li className="bronnav-item-3"><a href='#!'>Київ</a></li>
         <li>
         <div className='line__img3'>
         <img src={lineImg} alt="Line" />
         </div>
         </li>
-        <li className="nav-item-4"><a href='#!'>Одеська область</a></li>
+        <li className="bronnav-item-4"><a href='#!'>Одеська область</a></li>
         </ul>
     </nav>
     </div>

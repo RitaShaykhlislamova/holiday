@@ -10,7 +10,7 @@
   height: 498px;
   margin-left: 211px;
   background-color: #BDBDC6;
-  top: -50px;
+  top: 30px;
   margin-bottom: 100px;
 }
 
@@ -226,7 +226,7 @@ height: 50px;
     height: 59.60px;
     position: relative;
     border-radius: 9999px;
-    top: -160px;
+    margin-top: 130px;
     left: -60px;
     transition: background-color 0.3s;
     color: #ffffff !important;

@@ -79,11 +79,11 @@ headerbron + footerbron {
     top: 70px;
     left: 20px;
     }
-    .nav-item-1  {
+    .bronnav-item-1 a  {
       display: flex;
       position: absolute;
       text-align: center;
-       color: #292A31; 
+      color: #292A31;
       font-size: 32px; 
       font-family: 'PT Sans-Italic';  
       font-weight: 400;
@@ -91,6 +91,8 @@ headerbron + footerbron {
       align-items: center;
       justify-content: center;
       z-index: 10px;
+      width: 103px;
+      height: 46px;
       left: 50%; /* Центрирование по горизонтали */
   transform: translateX(-50%); /* Центрирование по горизонтали */   
      } 
@@ -107,7 +109,7 @@ headerbron + footerbron {
         left: 20px;
         }
     
-    .nav-item-2  {
+    .bronnav-item-2 a  {
       display: flex;
       position: absolute;
       text-align: center;
@@ -116,6 +118,8 @@ headerbron + footerbron {
       font-family: 'PT Sans-Italic';  
       font-weight: 400;
       top: 95px;
+      width: 123px;
+      height: 42px;
       align-items: center;
       justify-content: center;
       left: 50%; /* Центрирование по горизонтали */
@@ -133,7 +137,7 @@ headerbron + footerbron {
         top: 210px;
         left: 20px;
         }
-    .nav-item-3  {
+    .bronnav-item-3 a  {
       display: flex;
       position: absolute;
       text-align: center;
@@ -142,23 +146,27 @@ headerbron + footerbron {
       font-family: 'PT Sans-Italic';  
       font-weight: 400;
       top: 165px;
+      width: 58px;
+      height: 42px;
       align-items: center;
       justify-content: center;
       left: 50%; /* Центрирование по горизонтали */
       transform: translateX(-50%);   
      } 
-     .nav-item-4  {
+     .bronnav-item-4 a  {
       display: flex;
       position: absolute;
       text-align: center;
-       color: #292A31; 
+      color: #292A31;
       font-size: 32px; 
       font-family: 'PT Sans-Italic';  
       font-weight: 400;
       top: 235px;
+      width: 233px;
+      height: 42px;
       align-items: center;
       justify-content: center;
-      left: 50%; /* Центрирование по горизонтали */
+      left: 50%;
       transform: translateX(-50%);   
      } 
      
